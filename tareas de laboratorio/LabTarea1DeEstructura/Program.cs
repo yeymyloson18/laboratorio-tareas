@@ -4,8 +4,7 @@
 
 
 //  (1) Realiza la suma, resta, multiplicación y división de dos números ingresados por el usuario.
-
-
+/*
 
 // asignacion de variables
 double numero1, numero2, suma, resta, multiplicacion, division;
@@ -24,13 +23,13 @@ Console.WriteLine("Resta: " + resta);
 Console.WriteLine("Multiplicación: " + multiplicacion);
 Console.WriteLine("División: " + division);
 Console.ReadKey();
-
+*/
 
 
 
 
 //  (2) Solicita un número al usuario y determina si es par o impar.
-
+/*
 
 
 
@@ -50,7 +49,7 @@ else
     Console.WriteLine("El número " + numero + " es impar");
 }
 Console.ReadKey();
-
+*/
 
 
 
@@ -59,7 +58,7 @@ Console.ReadKey();
 
 
 // (3) Pide la base y la altura de un triángulo al usuario y calcula su área. 
-
+/*
 
 
 // asignacion de variables
@@ -75,7 +74,7 @@ area = (bace * altura) / 2;
 //demostracion de resultados
 Console.WriteLine("El área del triángulo es: " + area);
 Console.ReadKey();
-
+*/
 
 
 
@@ -86,7 +85,7 @@ Console.ReadKey();
 
 
 //  (4) Crea una función que calcule la factorial de un número. 
-
+/*
 
 
 // asignacion de variables
@@ -103,13 +102,13 @@ for (int i = 1; i <= numero; i++)
 //demostracion de resultados
 Console.WriteLine("El factorial de " + numero + " es: " + factorial);
 Console.ReadKey();
-
+*/
 
 
 
 
 //  (5) Verifica si un número ingresado por el usuario es primo o no.
-
+/*
 
 Console.Write("Ingrese un número: ");
 int numero = int.Parse(Console.ReadLine());
@@ -131,14 +130,14 @@ else
     Console.WriteLine("El número no es primo.");
 }
 Console.ReadKey();
-
+*/
 
 
 
 
 
 //    (6) Toma una cadena de texto y muestra su inversión. 
-
+/*
 
 Console.Write("Ingrese una cadena de texto: ");
 string texto = Console.ReadLine();
@@ -152,13 +151,13 @@ for (int i = texto.Length - 1; i >= 0; i--)
 
 Console.WriteLine("La cadena invertida es: " + textoInvertido);
 Console.ReadKey();
-
+*/
 
 
 
 
 //   (7) Calcula la suma de los números pares en un rango especificado por el usuario. 
-
+/*
 
 Console.Write("Ingrese el inicio del rango: ");
 int inicio = int.Parse(Console.ReadLine());
@@ -177,13 +176,13 @@ for (int i = inicio; i <= fin; i++)
 
 Console.WriteLine("La suma de los números pares en el rango es: " + sumaPares);
 Console.ReadKey();
-
+*/
 
 
 
 
 //  (8) Crea una lista de los cuadrados de los primeros 10 números naturales. 
-
+/*
 
 
 List<int> cuadrados = new List<int>();
@@ -201,7 +200,7 @@ foreach (int cuadrado in cuadrados)
     Console.WriteLine( cuadrado);
 }
 Console.ReadKey();
-
+*/
 
 
 
@@ -213,7 +212,7 @@ Console.ReadKey();
 
 
 //  (9) Cuenta el número de vocales en una cadena de texto. 
-
+/*
 
 Console.Write("Ingrese una cadena de texto: ");
 string texto = Console.ReadLine().ToLower(); // Convertir la cadena a minúsculas para simplificar la comparación
@@ -234,14 +233,14 @@ foreach (char caracter in texto)
 // Mostrar el número de vocales en la cadena
 Console.WriteLine("El número de vocales en la cadena es: " + contadorVocales);
 Console.ReadKey();
-
+*/
 
 
 
 
 
 //  (10) Genera los primeros 10 números de la serie Fibonacci. 
-
+/*
 
 // Definir los primeros dos números de la serie Fibonacci
 int a = 0;
@@ -260,7 +259,7 @@ for (int i = 2; i < 10; i++)
 }
 Console.ReadKey();
 
-
+*/
 
 
 
@@ -268,8 +267,7 @@ Console.ReadKey();
 
 
 //  (11) Ordena una lista de números ingresados por el usuario de menor a mayor. 
-
-
+/*
 Console.Write("Ingrese la cantidad de números: ");
 int cantidad = int.Parse(Console.ReadLine());
 int[] numeros = new int[cantidad];
@@ -289,12 +287,12 @@ foreach (int numero in numeros)
     Console.Write(numero + " ");
 }
 Console.ReadKey();
-
+*/
 
 
 
 //  (12) Verifica si una palabra ingresada por el usuario es un palíndromo. 
-
+/*
 
 Console.Write("Ingrese una palabra: ");
 string palabra = Console.ReadLine().ToLower(); // Convertir la palabra a minúsculas para simplificar la comparación
@@ -320,13 +318,13 @@ else
     Console.WriteLine("La palabra \"" + palabra + "\" no es un palíndromo.");
 }
 Console.ReadKey();
-
+*/
 
 
 
 
 //  (13) Crea un programa que genere la tabla de multiplicar de un número ingresado por el usuario. 
-
+/*
 
 // Solicitar al usuario que ingrese un número para generar su tabla de multiplicar
 Console.Write("Ingrese un número para generar su tabla de multiplicar: ");
@@ -341,13 +339,13 @@ for (int i = 1; i <= 10; i++)
 }
 Console.ReadKey();
 
-
+*/
 
 
 
 
 //  (14) Pide el radio de un círculo al usuario y calcula su área. 
-
+/*
 
 Double radio, area;
 
@@ -360,7 +358,7 @@ area = Math.PI * Math.Pow(radio, 2);
 // Mostrar el área del círculo
 Console.WriteLine("El área del círculo con radio " + radio + " es: " + area);
 Console.ReadKey();
-
+*/
 
 
 
@@ -368,7 +366,7 @@ Console.ReadKey();
 
 
 //  (15) Toma un número entero y calcula la suma de sus dígitos. 
-
+/*
 
 Console.Write("Ingrese un número entero: ");
 int numero = int.Parse(Console.ReadLine());
@@ -385,7 +383,7 @@ while (numeroAbsoluto > 0)
 Console.WriteLine("La suma de los dígitos del número es: " + sumaDigitos);
 Console.ReadKey();
 
-
+*/
 
 
 
