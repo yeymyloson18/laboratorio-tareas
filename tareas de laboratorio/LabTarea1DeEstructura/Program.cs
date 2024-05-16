@@ -139,17 +139,25 @@ Console.ReadKey();
 //    (6) Toma una cadena de texto y muestra su inversión. 
 /*
 
-Console.Write("Ingrese una cadena de texto: ");
-string texto = Console.ReadLine();
-
-string textoInvertido = "";
-
-for (int i = texto.Length - 1; i >= 0; i--)
+Console.Write("Ingrese un número: ");
+int numero = int.Parse(Console.ReadLine());
+int divisor = 1, contador = 0;
+while (divisor <= numero)
 {
-    textoInvertido += texto[i];
+    if (numero % divisor == 0)
+    {
+        contador++;
+    }
+    divisor++;
 }
-
-Console.WriteLine("La cadena invertida es: " + textoInvertido);
+if (contador == 2)
+{
+    Console.WriteLine("El número es primo.");
+}
+else
+{
+    Console.WriteLine("El número no es primo.");
+}
 Console.ReadKey();
 */
 
@@ -384,6 +392,31 @@ Console.WriteLine("La suma de los dígitos del número es: " + sumaDigitos);
 Console.ReadKey();
 
 */
+
+
+
+
+
+
+int n = 10; 
+for (int i = 0; i < n; i++)
+{
+    int coeficiente = 1;
+    for (int espacio = 0; espacio < n - i - 1; espacio++)
+    {
+        Console.Write(" ");
+    }
+    for (int j = 0; j <= i; j++)
+    {
+        Console.Write(coeficiente + " ");
+        coeficiente = coeficiente * (i - j) / (j + 1);
+    }
+    Console.WriteLine();
+}
+
+
+
+
 
 
 
