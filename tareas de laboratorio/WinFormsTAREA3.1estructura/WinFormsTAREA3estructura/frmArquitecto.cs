@@ -1,3 +1,4 @@
+
 namespace WinFormsTAREA3estructura
 {
     public partial class frmArquitecto : Form
@@ -7,32 +8,26 @@ namespace WinFormsTAREA3estructura
         {
             InitializeComponent();
         }
-
         private void lblCódigo_Click(object sender, EventArgs e)
         {
 
         }
-
         private void txtCódigo_TextChanged(object sender, EventArgs e)
         {
 
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
 
         }
-
         private void cboCondicion_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
         private void cboEspecialidad_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
         private void btnCrear_Click(object sender, EventArgs e)
         {
             string codigo = txtCodigo.Text;
@@ -45,7 +40,6 @@ namespace WinFormsTAREA3estructura
             arquitecto = new Arquitecto(codigo, nombres, condicionContrato, especialidad, tipoactividad, tipoafiliado);
             MessageBox.Show("OBJETO CREADO");
         }
-
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtCodigo.Clear();
@@ -58,14 +52,11 @@ namespace WinFormsTAREA3estructura
             cboAfiliado.SelectedIndex = -1;
 
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
             
-        }
-
-        private void lblCondicionContrato_Click(object sender, EventArgs e)
+        }        private void lblCondicionContrato_Click(object sender, EventArgs e)
         {
 
         }

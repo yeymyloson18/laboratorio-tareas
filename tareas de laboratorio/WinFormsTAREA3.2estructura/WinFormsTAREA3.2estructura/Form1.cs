@@ -1,3 +1,4 @@
+
 using static System.Windows.Forms.MonthCalendar;
 
 namespace WinFormsTAREA3._2estructura
@@ -14,7 +15,6 @@ namespace WinFormsTAREA3._2estructura
         {
 
         }
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -24,7 +24,6 @@ namespace WinFormsTAREA3._2estructura
         {
 
         }
-
         private void tbnCrear_Click(object sender, EventArgs e)
         {
             string nombre = txtNombres.Text;
@@ -35,16 +34,14 @@ namespace WinFormsTAREA3._2estructura
 
             jefe = new Jefe(nombre, dni, cargo, area, antiguedad);
             MessageBox.Show("OBJETO CREADO");
-
         }
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            // Calculamos los valores una vez y los almacenamos en variables locales
+            
             double sueldoBase = jefe.CalcularSueldoBase();
             double bonificacion = jefe.CalcularBonificacion();
-
-            // Mostramos la información
+            
             txtResultado.AppendText("DNI: " + jefe.Dni + Environment.NewLine);
             txtResultado.AppendText("Nombre: " + jefe.Nombres + Environment.NewLine);
             txtResultado.AppendText("Cargo: " + jefe.Cargo + Environment.NewLine);
@@ -55,18 +52,15 @@ namespace WinFormsTAREA3._2estructura
             txtResultado.AppendText("Movilidad : " + jefe.AsignarMontoMovilidad() + Environment.NewLine);
             txtResultado.AppendText("Sueldo Final: " + jefe.CalcularSueldoFinal() + Environment.NewLine);
         }
-
         private void lblArea_Click(object sender, EventArgs e)
         {
 
 
         }
-
         private void txtAntigüedad_TextChanged(object sender, EventArgs e)
         {
 
         }
-
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtDni.Clear();
@@ -77,7 +71,6 @@ namespace WinFormsTAREA3._2estructura
             cboArea.SelectedIndex = -1;
             cboCargo.SelectedIndex = -1;
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();

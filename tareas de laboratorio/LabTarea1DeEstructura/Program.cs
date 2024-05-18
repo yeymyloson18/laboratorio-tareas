@@ -398,26 +398,52 @@ Console.ReadKey();
 
 
 
-int n = 10; 
-for (int i = 0; i < n; i++)
-{
-    int coeficiente = 1;
-    for (int espacio = 0; espacio < n - i - 1; espacio++)
-    {
-        Console.Write(" ");
-    }
-    for (int j = 0; j <= i; j++)
-    {
-        Console.Write(coeficiente + " ");
-        coeficiente = coeficiente * (i - j) / (j + 1);
-    }
-    Console.WriteLine();
-}
+//Console.WriteLine("Ingrese el número de inicio del rango:");
+//int inicio = Convert.ToInt32(Console.ReadLine());
 
+//Console.WriteLine("Ingrese el número de fin del rango:");
+//int fin = Convert.ToInt32(Console.ReadLine());
 
+//int pares = 0;
+//int impares = 0;
+//int divisores3 = 0;
+//int divisores5 = 0;
+//int divisores7 = 0;
 
+//// Iterar a través de cada número en el rango
+//for (int num = inicio; num <= fin; num++)
+//{
+//    // Verificar si el número es par o impar
+//    if (num % 2 == 0)
+//    {
+//        pares++;
+//    }
+//    else
+//    {
+//        impares++;
+//    }
 
+//    // Contar divisores de 3, 5 y 7 para el número actual
+//    if (num % 3 == 0)
+//    {
+//        divisores3++;
+//    }
+//    if (num % 5 == 0)
+//    {
+//        divisores5++;
+//    }
+//    if (num % 7 == 0)
+//    {
+//        divisores7++;
+//    }
+//}
 
+//// Mostrar los resultados
+//Console.WriteLine($"Cantidad de números pares: {pares}");
+//Console.WriteLine($"Cantidad de números impares: {impares}");
+//Console.WriteLine($"Cantidad de divisores de 3: {divisores3}");
+//Console.WriteLine($"Cantidad de divisores de 5: {divisores5}");
+//Console.WriteLine($"Cantidad de divisores de 7: {divisores7}");
 
 
 

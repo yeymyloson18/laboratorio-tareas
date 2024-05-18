@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,6 @@ namespace WinFormsTAREA3._2estructura
         public string Cargo { get; set; } // gerente, subgerente
         public string Area { get; set; } // contabilidad, planificación
         public int AnosAntiguedad { get; set; }
-
         public Jefe(string nombres, string dni, string cargo, string area, int anosAntiguedad)
         {
             Nombres = nombres;
@@ -22,7 +22,6 @@ namespace WinFormsTAREA3._2estructura
             Area = area;
             AnosAntiguedad = anosAntiguedad;
         }
-
         public double CalcularSueldoBase()
         {
             double sueldoBase = 0;

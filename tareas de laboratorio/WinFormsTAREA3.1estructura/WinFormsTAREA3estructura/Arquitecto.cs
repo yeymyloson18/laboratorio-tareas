@@ -14,7 +14,6 @@ namespace WinFormsTAREA3estructura
         public string Especialidad { get; set; } // estructuras, recursos hídricos
         public string TipoActividad { get; set; } // supervisión de obras, supervisión de vías
         public string TipoAfiliado { get; set; } // AFP, SNP
-
         public Arquitecto(string codigo, string nombre, string condicionContrato, string especialidad, string tipoActividad, string tipoAfiliado)
         {
             Codigo = codigo;
@@ -24,7 +23,6 @@ namespace WinFormsTAREA3estructura
             TipoActividad = tipoActividad;
             TipoAfiliado = tipoAfiliado;
         }
-
         public double CalcularSueldoBase()
         {
             double sueldoBase = 0;
@@ -40,7 +38,6 @@ namespace WinFormsTAREA3estructura
 
             return sueldoBase;
         }
-
         public double CalcularBonificacion()
         {
             double sueldoBase = CalcularSueldoBase();
@@ -48,7 +45,6 @@ namespace WinFormsTAREA3estructura
 
             return bonificacion;
         }
-
         public double CalcularDescuento()
         {
             double sueldoBase = CalcularSueldoBase();
@@ -56,7 +52,6 @@ namespace WinFormsTAREA3estructura
 
             return descuento;
         }
-
         public double CalcularSueldoNeto()
         {
             double sueldoBase = CalcularSueldoBase();
@@ -67,7 +62,6 @@ namespace WinFormsTAREA3estructura
 
             return sueldoNeto;
         }
-
         public double CalcularSueldoBruto()
         {
             double sueldoBase = CalcularSueldoBase();
