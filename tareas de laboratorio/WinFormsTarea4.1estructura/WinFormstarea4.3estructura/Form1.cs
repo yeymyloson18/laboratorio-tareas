@@ -10,7 +10,6 @@ namespace WinFormsDivisibleNumbers
         {
             InitializeComponent();
         }
-
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             try
@@ -49,7 +48,6 @@ namespace WinFormsDivisibleNumbers
         {
 
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -60,6 +58,11 @@ namespace WinFormsDivisibleNumbers
             txtNumbers.Clear();
             txtDivisor.Clear();
             Resultados.Items.Clear();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

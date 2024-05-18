@@ -117,6 +117,7 @@ namespace WinFormsDivisibleNumbers
             Controls.Add(lblNumbers);
             Name = "Form1";
             Text = "Números Divisibles";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

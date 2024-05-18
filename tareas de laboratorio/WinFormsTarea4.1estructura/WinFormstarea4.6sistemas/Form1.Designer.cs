@@ -43,7 +43,7 @@ namespace WinFormsDiferenciaConjuntos
             txtPrimerC.Location = new Point(16, 50);
             txtPrimerC.Multiline = true;
             txtPrimerC.Name = "txtPrimerC";
-            txtPrimerC.Size = new Size(424, 62);
+            txtPrimerC.Size = new Size(424, 58);
             txtPrimerC.TabIndex = 1;
             // 
             // lblSegundo
@@ -61,12 +61,12 @@ namespace WinFormsDiferenciaConjuntos
             txtSegundoC.Location = new Point(16, 150);
             txtSegundoC.Multiline = true;
             txtSegundoC.Name = "txtSegundoC";
-            txtSegundoC.Size = new Size(424, 79);
+            txtSegundoC.Size = new Size(424, 54);
             txtSegundoC.TabIndex = 3;
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(12, 250);
+            btnCalculate.Location = new Point(134, 220);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(132, 29);
             btnCalculate.TabIndex = 4;
@@ -77,14 +77,14 @@ namespace WinFormsDiferenciaConjuntos
             // Resultado
             // 
             Resultado.FormattingEnabled = true;
-            Resultado.Location = new Point(16, 313);
+            Resultado.Location = new Point(44, 273);
             Resultado.Name = "Resultado";
-            Resultado.Size = new Size(307, 124);
+            Resultado.Size = new Size(222, 164);
             Resultado.TabIndex = 5;
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(355, 327);
+            btnLimpiar.Location = new Point(322, 310);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(94, 29);
             btnLimpiar.TabIndex = 6;
@@ -94,7 +94,7 @@ namespace WinFormsDiferenciaConjuntos
             // 
             // btnSalir
             // 
-            btnSalir.Location = new Point(355, 390);
+            btnSalir.Location = new Point(322, 386);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(94, 29);
             btnSalir.TabIndex = 7;

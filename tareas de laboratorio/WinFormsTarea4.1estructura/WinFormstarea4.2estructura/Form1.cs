@@ -15,18 +15,15 @@ namespace WinFormstarea4._2estructura
         {
 
         }
-
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             string inputPalabras = txtPalabras.Text;
             string inputLetra = txtLetra.Text;
-
             if (inputLetra.Length != 1)
             {
                 MessageBox.Show("Por favor, ingrese una sola letra.");
                 return;
             }
-
             char letra = inputLetra[0];
             HashSet<string> palabras = new HashSet<string>(inputPalabras.Split(',')
                 .Select(p => p.Trim()).Where(p => !string.IsNullOrEmpty(p)));
@@ -46,13 +43,19 @@ namespace WinFormstarea4._2estructura
             txtPalabras.Clear();
             Resultados.Items.Clear();
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-    }
+        private void txtPalabras_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+    }
     public static class FiltrarPalabras
     {
         public static HashSet<string> ObtenerPalabrasQueComienzanCon(HashSet<string> palabras, char letra)

@@ -36,10 +36,11 @@ namespace WinFormstarea4._2estructura
             // 
             // txtPalabras
             // 
-            txtPalabras.Location = new Point(12, 29);
+            txtPalabras.Location = new Point(12, 32);
             txtPalabras.Name = "txtPalabras";
             txtPalabras.Size = new Size(457, 27);
             txtPalabras.TabIndex = 0;
+            txtPalabras.TextChanged += txtPalabras_TextChanged;
             // 
             // txtLetra
             // 
@@ -117,6 +118,7 @@ namespace WinFormstarea4._2estructura
             Controls.Add(txtPalabras);
             Name = "Form1";
             Text = "Filtrar Palabras";
+            Load += Form1_Load_1;
             ResumeLayout(false);
             PerformLayout();
         }

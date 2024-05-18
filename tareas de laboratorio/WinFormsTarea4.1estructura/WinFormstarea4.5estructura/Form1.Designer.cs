@@ -67,7 +67,7 @@ namespace WinFormsDiferenciaConjuntos
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(81, 247);
+            btnCalculate.Location = new Point(81, 209);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(114, 31);
             btnCalculate.TabIndex = 4;
@@ -78,9 +78,9 @@ namespace WinFormsDiferenciaConjuntos
             // Resultado
             // 
             Resultado.FormattingEnabled = true;
-            Resultado.Location = new Point(16, 293);
+            Resultado.Location = new Point(16, 253);
             Resultado.Name = "Resultado";
-            Resultado.Size = new Size(256, 144);
+            Resultado.Size = new Size(256, 184);
             Resultado.TabIndex = 5;
             // 
             // btnLimpiar
@@ -116,6 +116,7 @@ namespace WinFormsDiferenciaConjuntos
             Controls.Add(lblNumbers1);
             Name = "Form1";
             Text = "Diferencia de Conjuntos";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
